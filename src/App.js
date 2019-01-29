@@ -12,7 +12,7 @@ const App = () => {
 export default App;
 
 const ColorWheel = () => {
-  const div = 24;
+  const div = 25;
   return (
     <div className="ColorWheel">
       {Array.from(Array(div)).map((_, i) => (
@@ -29,7 +29,5 @@ const Radial = ({ rotation }) => (
       transform: `rotate(${rotation}deg)`,
       backgroundColor: `hsl(${rotation}, 100%, 50%)`
     }}
-  >
-    RADIAL
-  </div>
+  />
 );
