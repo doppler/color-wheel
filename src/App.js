@@ -5,6 +5,9 @@ const App = () => {
   return (
     <div className="App">
       <ColorWheel />
+      <a className="github-link" href="https://github.com/doppler/color-wheel">
+        View Source
+      </a>
     </div>
   );
 };
