@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/color-wheel/static/js/runtime~main.fb7e5070.js"
   },
   {
-    "revision": "9363112d9d73ab5bec87509387501c4a",
+    "revision": "e03392de2e4b8596aba27cab11be083c",
     "url": "/color-wheel/index.html"
   }
 ];
