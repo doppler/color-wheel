@@ -10,15 +10,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <ColorWheel numberOfRadials={numberOfRadials} />
-      <ColorWheel numberOfRadials={numberOfRadials} reverse={true} />
+      <ColorWheel {...{ numberOfRadials }} />
+      <ColorWheel {...{ numberOfRadials, reverse: true }} />
       <a className="github-link" href="https://github.com/doppler/color-wheel">
         View Source
       </a>
-      <RadialCountSlider
-        numberOfRadials={numberOfRadials}
-        handleRangeChange={handleRangeChange}
-      />
+      <RadialCountSlider {...{ numberOfRadials, handleRangeChange }} />
     </div>
   );
 };

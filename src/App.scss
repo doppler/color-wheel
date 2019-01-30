@@ -42,7 +42,8 @@ html {
   }
 }
 .ColorWheel {
-  position: relative;
+  position: absolute;
+  opacity: 0.5;
   width: 200vmax;
   height: 200vmax;
   animation: spin 300s linear infinite;
