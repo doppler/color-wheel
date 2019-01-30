@@ -1,17 +1,11 @@
 html {
   overflow: scroll;
   overflow-x: hidden;
+  // overflow-y: hidden;
 }
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
-}
-
-html,
-body {
-  height: 100vh;
-  margin: 0;
-  box-sizing: border-box;
 }
 .App {
   display: flex;
@@ -48,9 +42,13 @@ body {
   }
 }
 .ColorWheel {
-  width: 300%;
-  height: 300%;
-  animation: spin 60s linear infinite;
+  position: relative;
+  width: 200vmax;
+  height: 200vmax;
+  animation: spin 300s linear infinite;
+  &.reverse {
+    animation-direction: reverse;
+  }
 }
 .Radial {
   position: absolute;

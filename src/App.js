@@ -5,13 +5,13 @@ const App = () => {
   const [numberOfRadials, setNumberOfRadials] = useState(25);
 
   const handleRangeChange = event => {
-    console.log(event.target.value);
     setNumberOfRadials(Number(event.target.value));
   };
 
   return (
     <div className="App">
       <ColorWheel numberOfRadials={numberOfRadials} />
+      <ColorWheel numberOfRadials={numberOfRadials} reverse={true} />
       <a className="github-link" href="https://github.com/doppler/color-wheel">
         View Source
       </a>
@@ -25,9 +25,9 @@ const App = () => {
 
 export default App;
 
-const ColorWheel = ({ numberOfRadials }) => {
+const ColorWheel = ({ numberOfRadials, reverse }) => {
   return (
-    <div className="ColorWheel">
+    <div className={`ColorWheel ${reverse ? "reverse" : null}`}>
       {Array.from(Array(numberOfRadials)).map((_, i) => (
         <Radial key={i} rotation={(i * 360) / numberOfRadials} />
       ))}
