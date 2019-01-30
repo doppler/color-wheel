@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "278f211c2e14c42369cc",
-    "url": "/color-wheel/static/css/main.c711f44b.chunk.css"
+    "revision": "5b6fe45400db7cc87440",
+    "url": "/color-wheel/static/css/main.82562b14.chunk.css"
   },
   {
-    "revision": "278f211c2e14c42369cc",
-    "url": "/color-wheel/static/js/main.278f211c.chunk.js"
+    "revision": "5b6fe45400db7cc87440",
+    "url": "/color-wheel/static/js/main.5b6fe454.chunk.js"
   },
   {
     "revision": "1215d76f22d5e49a20fa",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/color-wheel/static/js/runtime~main.fb7e5070.js"
   },
   {
-    "revision": "e03392de2e4b8596aba27cab11be083c",
+    "revision": "ded616c64fff88709269ea31744d53ed",
     "url": "/color-wheel/index.html"
   }
 ];
